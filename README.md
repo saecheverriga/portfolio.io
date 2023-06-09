@@ -1,3 +1,1 @@
-Portfolio
-
-(https://github.com/RyanFitzgerald/devblog)
+Hi!, read License.md
