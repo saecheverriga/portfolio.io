@@ -25,22 +25,22 @@
         </div>
         <ul id="menu" class="shadow">
             <li>
-                <a href="#about">About</a>
+                <a href="#about">Ask</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#experience">Prepare</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#education">Process</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Analyze</a>
             </li>
             <li>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Share</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact">Act</a>
             </li>
         </ul>
     </header>
@@ -48,9 +48,19 @@
 
     <div id="lead">
         <div id="lead-content">
-            <h1>Ryan Fitzgerald</h1>
-            <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <h1>Cyclistic bike-share</h1>
+            <h2>analysis case study</h2>
+            <a href="file:///C:/Users/santi/Documents/GitHub/portfolio_bike_case/index.html" class="btn-rounded-white">Santiago Echeverri</a>
+            <div id="skills">
+                <ul>
+                    <li>Cyclistic is a bike-share company in Chicago that offers a fun, convenient, and affordable way to get around the city.
+                        Founded in 2016, Cyclistic has a fleet of 5,824 bikes and 692 stations. Riders can unlock bikes from any station and return
+                         them to any other station in the system. Cyclistic is open 24 hours a day, 7 days a week, and its team of dedicated employees 
+                         are committed to providing a great biking experience for all users. In this case study, I show a data analysis for a fictional 
+                         bike-share company in order to help them attract more riders.
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- End #lead-content -->
 
@@ -69,13 +79,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading">Ask</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat. Donec
-                        eu vehicula neque. Donec viverra lorem nunc, tempus euismod eros sollicitudin ut. Quisque et tincidunt libero. Donec id pharetra justo. Proin euismod lacinia dolor, eu scelerisque justo tempus pharetra. Vivamus nunc justo, finibus
-                        ut nisl sed, euismod rhoncus nulla. Proin sed magna egestas, egestas ante et, congue eros. In consequat, mauris dapibus tincidunt suscipit, ex libero aliquet diam, at maximus risus enim non leo.
+                        The business task for the company is to understand how casual riders and annual members use Cyclistic bikes differently, in order to design a new marketing strategy to convert casual riders into annual members.
                     </p>
                 </div>
             </div>
@@ -84,29 +92,26 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading">Prepare</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Prepare step 1">
+                <h3>Source of data</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    For the purposes of this case study,the datasets has been made available by Motivate International Inc. under license.
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Prepare step 2">
+                <h3>How's data organized</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    This dataset contains information about rides, such as bike type (docked, classic and electric), start and end stations names and ID's with geographical lat and long coordenates and last the rideable type (casual or member).
                 </p>
             </div>
 
-            <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
+            <div data-date="Prepare step 3">
+                <h3>Sorts and filters made</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                    In this case I used the data from 1 year, starting april 2022 to may 2023, taking from the total of 5.83 million rows, a sample of 200000 which represents more than 99.999% in confidence level and almost 0.5% in margin of error. It was made by using RStudio using merge and sample functions. (see process steps)
                 </p>
             </div>
         </div>
@@ -114,30 +119,33 @@
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">Process</h2>
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-            </p>
+            <h3>Using RStudio</h3>
+            <h4></h4>
+            <ul>
+                <li>
+                    With function transform, mutate and wday I extracted data about day of the month and week, month and year.
+                </li>
+                <li>
+                    I used the library geosphere for calulating the distance among coordenates, i used functions such as distHaversine and as.isnumeric and also I used vectors for recheck data calculations.
+                </li>
+                <li>
+                    For checking the process steps, i used the glimpse funtion. I also used the cbind function for checking purposes. At the end I extracted the information as a .csv file.
+                </li>
+            </ul>
         </div>
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>University of Ottawa</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
-            <h4>Bachelor of Science in Computer Science</h4>
+            <h3>Using Spreadsheets</h3>
+            <h4></h4>
             <ul>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    I used functions such as left, iferror, extract and joins to fix long decimals data.
                 </li>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    I checked for irregular values with fixed formulas.
                 </li>
             </ul>
         </div>
@@ -146,7 +154,7 @@
     <!-- End #education -->
 
     <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Analyze</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -186,48 +194,18 @@
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">Share</h2>
         <ul>
             <li>JavaScript</li>
             <li>Python</li>
             <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>C#</li>
-            <li>C++</li>
-            <li>Ruby on Rails</li>
         </ul>
     </div>
     <!-- End #skills -->
 
     <div id="contact">
-        <h2>Get in Touch</h2>
-        <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </div>
+        <h2>Act</h2>
+
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
